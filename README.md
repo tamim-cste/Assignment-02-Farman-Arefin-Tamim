@@ -24,22 +24,33 @@ A full-stack web application showcasing a luxury all-inclusive resort with dynam
 
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
+- Git
 
 ### Setup Steps
 
-1. **Install Dependencies**
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/tamim-cste/Assignment-02-Farman-Arefin-Tamim.git
+   ```
+
+2. **Navigate to Project Directory**
+   ```bash
+   cd Assignment-02-Farman-Arefin-Tamim/project
+   ```
+
+3. **Install Dependencies**
    ```bash
    npm install
    ```
 
-2. **Configure Environment Variables**
+4. **Configure Environment Variables**
    
    Create a `.env` file in the project root and add your Google Maps API key:
    ```
    GOOGLE_MAPS_API_KEY=your_api_key_here
    ```
 
-3. **Run the Development Server**
+5. **Run the Development Server**
    ```bash
    npm run dev
    ```
